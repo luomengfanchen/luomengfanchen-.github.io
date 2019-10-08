@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>算法的时间复杂度解读笔记</title>
+      <link href="/2019/10/08/%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E8%A7%A3%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+      <url>/2019/10/08/%E7%AE%97%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E8%A7%A3%E8%AF%BB%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="计算规则"><span class="heading-link">计算规则</span></h2><blockquote><p>如果一个算法对于一个数学函数 f 执行一系列的步骤 f(N) 次，他需要 O(f(N)) 步。</p></blockquote><blockquote><p>如果一个算法对于函数 f 执行了一个需要 O(f(N)) 步的步骤， 然后对于函数 g 执行了第二个需要 O(f(N)) 步的操作，这个算法的总体复杂度是 O(f(N) + g(N))。</p></blockquote><blockquote><p>如果一个算法的复杂度是 O(f(N) + g(N))， 并且对于足够大的N，函数 f(N) 远大与 g(N)，这个算法的性能可以被简化为 O(f(N))。</p></blockquote><blockquote><p>如果一个算法执行了一个需要 O(f(N))  步的操作，对于操作中的每一(步执行了另外 O(g(N)) 步，这个算法的总体复杂度是 O(f(N) * g(N))。</p></blockquote><blockquote><p>忽略常数的倍数。如果 C 是一个常数， O(C * f(N)) 等同于 O(f(N))，并且 O(f( C * N)) 等同于 O(f(N))。</p></blockquote><h2 id="常见复杂度"><span class="heading-link">常见复杂度</span></h2><ul><li>O(1)</li><li>O(log N)</li><li>O(sqrt(N))</li><li>O(N)</li><li>O(N log N)</li><li>O(N ^ 2)</li><li>O(2 ^ N)</li><li>O(N!)</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法笔记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>冒泡排序笔记</title>
       <link href="/2019/10/08/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%AC%94%E8%AE%B0/"/>
       <url>/2019/10/08/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%AC%94%E8%AE%B0/</url>
